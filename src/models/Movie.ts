@@ -1,10 +1,10 @@
 export interface Movie {
     imdbID: string;
-    title: string;
-    poster: string;
-    ratings: Array<{
-        source: string;
-        value: string;
+    Title: string;
+    Poster: string;
+    Ratings: Array<{
+        Source: string;
+        Value: string;
     }>;
-    runtime: string;
+    Runtime: string;
 };
